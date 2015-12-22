@@ -400,6 +400,7 @@ create table USUARIO
    PASSWORD_USUARIO     VARCHAR2(32)         not null,
    TELEFONO_USUARIO     VARCHAR2(32),
    NOMBRES_COMPLETOS    VARCHAR2(200)        not null,
+   ACTIVO               VARCHAR2(1)          default 'N' not null, 
    ACERCA_DE            VARCHAR2(2000),
    constraint PK_USUARIO primary key (ID_USUARIO)
 );
