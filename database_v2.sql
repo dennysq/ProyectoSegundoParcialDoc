@@ -526,4 +526,4 @@ CREATE SEQUENCE DETALLE_SEQ;
 
 CREATE SEQUENCE USUARIO_EXCURSION_SEQ;
 
-insert into usuario values(0,'admin','dennysaurio@gmail.com','21232f297a57a5a743894a0e4a801fc3','0983015478','Admin ExcursionToGo','Y','System Admin');
+insert into usuario values(0,'admin','dennysaurio@gmail.com','21232f297a57a5a743894a0e4a801fc3','0983015478','Admin ExcursionToGo GoGO','Y','System Admin');
