@@ -224,6 +224,7 @@ create table DETALLE
    ID_ARTICULO          INTEGER,
    CANTIDAD_DETALLE     INTEGER              not null,
    DESCUENTO_DETALLE    NUMBER(8,2),
+   ADICIONAL            VARCHAR2(128),
    constraint PK_DETALLE primary key (ID_DETALLE)
 );
 
