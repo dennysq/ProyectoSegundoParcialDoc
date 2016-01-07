@@ -294,8 +294,8 @@ create table FACTURA
    FECHA_AUTORIZACION   TIMESTAMP,
    NUMERO_AUTORIZACION  VARCHAR2(37),
    CLAVE_ACCESO         VARCHAR2(49),
-   SUBTOTAL             NUMBER(8,2)          not null,
-   TOTAL                NUMBER(8,2)          not null,
+   SUBTOTAL             NUMBER(8,2),
+   TOTAL                NUMBER(8,2),          
    DESCUENTO            NUMBER(8,2),
    constraint PK_FACTURA primary key (ID_FACTURA)
 );
